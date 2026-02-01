@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="gfx/github_readme_cover.png" alt="SimpleDB Cover" width="800">
-</p>
+![SimpleDB](gfx/github_readme_cover.png)
 
 # SimpleDB
 
