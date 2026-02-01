@@ -4,29 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simpledb"
-version = "0.1.0"
+version = "0.2.0"
 description = "SimpleX Chat Database Export Tool"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.8"
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Environment :: Console",
-    "Intended Audience :: End Users/Desktop",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Topic :: Communications :: Chat",
-    "Topic :: Database",
-    "Topic :: Security :: Cryptography",
-]
-keywords = ["simplex", "chat", "export", "sqlcipher", "encrypted", "database"]
 dependencies = [
     "sqlcipher3>=0.6.0",
     "rich>=13.0.0",
@@ -36,9 +18,8 @@ dependencies = [
 simpledb = "simpledb:main"
 
 [project.urls]
-Homepage = "https://github.com/sash710/SimpleDB"
-Repository = "https://github.com/sash710/SimpleDB"
-Issues = "https://github.com/sash710/SimpleDB/issues"
+Homepage = "https://github.com/cannatoshi/SimpleDB"
+Repository = "https://github.com/cannatoshi/SimpleDB"
 
 [tool.setuptools]
 py-modules = ["simpledb"]
